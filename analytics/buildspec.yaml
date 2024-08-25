@@ -16,4 +16,4 @@ phases:
       - echo Pushing the Docker image...
       - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$BUILD_NUMBER
 
-      - echo {"time":'time', "stream":"stderr","_p":"F","log":"192.168.32.196 - - ['time'] \"Get /health_check}
+      - echo {"time":'time', "stream":"stderr","_p":"F","log":"192.168.32.196 - - ['time'] \"Get /health_check\1.1\\" "}
